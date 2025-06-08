@@ -24,17 +24,13 @@ body {
 }
 
 .logo {
-    font-size
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
 }
 
-.grid-layout {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 8px;
-}
-
-.item {
-    background: lightgray;
-    padding: 20px;
-    text-align: center;
+.navigation {
+    display: flex;
+    gap: 16px;
 }
